@@ -17,10 +17,11 @@ class ContactsHelper {
     var usersContactsNames: [String]?
     var addressBook: ABAddressBook!
     
-    
+    //Determine our application's permission status
     func determinePermissionStatus() -> Bool {
         
         let contactsPermissionStatus = ABAddressBookGetAuthorizationStatus()
+        
         switch contactsPermissionStatus {
         case .Authorized:
             return self.createAddressBook()
@@ -48,6 +49,8 @@ class ContactsHelper {
         }
     }
     
+    
+    //Create address book
     func createAddressBook() -> Bool {
         if usersContactsNames != nil {
             return true
@@ -63,6 +66,7 @@ class ContactsHelper {
         return true
     }
     
+    //Retrieve just the contact's names and store them in our usersContactsNames array.
     func getContactsNames() {
         if !self.determinePermissionStatus() {
             return
@@ -77,5 +81,4 @@ class ContactsHelper {
         }
         println(usersContactsNames!)
     }
-
 }

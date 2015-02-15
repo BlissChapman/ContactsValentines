@@ -7,12 +7,12 @@
 //
 
 import UIKit
-import AddressBook
 
 class ViewController: UIViewController {
     
     @IBOutlet weak var valentinesName: UILabel!
     @IBOutlet weak var displayLabel: UILabel!
+    
     var contactsHelper = ContactsHelper()
 
     override func viewDidLoad() {
@@ -36,7 +36,9 @@ class ViewController: UIViewController {
     }
 
     override func motionEnded(motion: UIEventSubtype, withEvent event: UIEvent) {
+        
         println("motion detected!!!")
+        
         if motion == UIEventSubtype.MotionShake {
             displayLabel.text = "Your valentine is:"
             makeArrayOfNames()
