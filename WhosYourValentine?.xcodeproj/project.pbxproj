@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A52177CE1A904DCF00C24BBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52177CD1A904DCF00C24BBD /* AppDelegate.swift */; };
+		A52177D01A904DCF00C24BBD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52177CF1A904DCF00C24BBD /* ViewController.swift */; };
+		A52177D31A904DCF00C24BBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A52177D11A904DCF00C24BBD /* Main.storyboard */; };
+		A52177D51A904DCF00C24BBD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A52177D41A904DCF00C24BBD /* Images.xcassets */; };
+		A52177D81A904DCF00C24BBD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A52177D61A904DCF00C24BBD /* LaunchScreen.xib */; };
+		A52177E41A904DCF00C24BBD /* WhosYourValentine_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52177E31A904DCF00C24BBD /* WhosYourValentine_Tests.swift */; };
+		A57DDBC91A90DFD3006DB91C /* ContactsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57DDBC81A90DFD3006DB91C /* ContactsHelper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A52177DE1A904DCF00C24BBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A52177C01A904DCE00C24BBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A52177C71A904DCF00C24BBD;
+			remoteInfo = "WhosYourValentine?";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A52177C81A904DCF00C24BBD /* WhosYourValentine?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WhosYourValentine?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A52177CC1A904DCF00C24BBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A52177CD1A904DCF00C24BBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A52177CF1A904DCF00C24BBD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A52177D21A904DCF00C24BBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A52177D41A904DCF00C24BBD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A52177D71A904DCF00C24BBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A52177DD1A904DCF00C24BBD /* WhosYourValentine?Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WhosYourValentine?Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A52177E21A904DCF00C24BBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A52177E31A904DCF00C24BBD /* WhosYourValentine_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhosYourValentine_Tests.swift; sourceTree = "<group>"; };
+		A57DDBC81A90DFD3006DB91C /* ContactsHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsHelper.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A52177C51A904DCF00C24BBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A52177DA1A904DCF00C24BBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A52177BF1A904DCE00C24BBD = {
+			isa = PBXGroup;
+			children = (
+				A52177CA1A904DCF00C24BBD /* WhosYourValentine? */,
+				A52177E01A904DCF00C24BBD /* WhosYourValentine?Tests */,
+				A52177C91A904DCF00C24BBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A52177C91A904DCF00C24BBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A52177C81A904DCF00C24BBD /* WhosYourValentine?.app */,
+				A52177DD1A904DCF00C24BBD /* WhosYourValentine?Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A52177CA1A904DCF00C24BBD /* WhosYourValentine? */ = {
+			isa = PBXGroup;
+			children = (
+				A52177CD1A904DCF00C24BBD /* AppDelegate.swift */,
+				A52177CF1A904DCF00C24BBD /* ViewController.swift */,
+				A57DDBC81A90DFD3006DB91C /* ContactsHelper.swift */,
+				A52177D11A904DCF00C24BBD /* Main.storyboard */,
+				A52177D41A904DCF00C24BBD /* Images.xcassets */,
+				A52177D61A904DCF00C24BBD /* LaunchScreen.xib */,
+				A52177CB1A904DCF00C24BBD /* Supporting Files */,
+			);
+			path = "WhosYourValentine?";
+			sourceTree = "<group>";
+		};
+		A52177CB1A904DCF00C24BBD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A52177CC1A904DCF00C24BBD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A52177E01A904DCF00C24BBD /* WhosYourValentine?Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A52177E31A904DCF00C24BBD /* WhosYourValentine_Tests.swift */,
+				A52177E11A904DCF00C24BBD /* Supporting Files */,
+			);
+			path = "WhosYourValentine?Tests";
+			sourceTree = "<group>";
+		};
+		A52177E11A904DCF00C24BBD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A52177E21A904DCF00C24BBD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A52177C71A904DCF00C24BBD /* WhosYourValentine? */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A52177E71A904DCF00C24BBD /* Build configuration list for PBXNativeTarget "WhosYourValentine?" */;
+			buildPhases = (
+				A52177C41A904DCF00C24BBD /* Sources */,
+				A52177C51A904DCF00C24BBD /* Frameworks */,
+				A52177C61A904DCF00C24BBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WhosYourValentine?";
+			productName = "WhosYourValentine?";
+			productReference = A52177C81A904DCF00C24BBD /* WhosYourValentine?.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A52177DC1A904DCF00C24BBD /* WhosYourValentine?Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A52177EA1A904DCF00C24BBD /* Build configuration list for PBXNativeTarget "WhosYourValentine?Tests" */;
+			buildPhases = (
+				A52177D91A904DCF00C24BBD /* Sources */,
+				A52177DA1A904DCF00C24BBD /* Frameworks */,
+				A52177DB1A904DCF00C24BBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A52177DF1A904DCF00C24BBD /* PBXTargetDependency */,
+			);
+			name = "WhosYourValentine?Tests";
+			productName = "WhosYourValentine?Tests";
+			productReference = A52177DD1A904DCF00C24BBD /* WhosYourValentine?Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A52177C01A904DCE00C24BBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Bliss Chapman";
+				TargetAttributes = {
+					A52177C71A904DCF00C24BBD = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					A52177DC1A904DCF00C24BBD = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = A52177C71A904DCF00C24BBD;
+					};
+				};
+			};
+			buildConfigurationList = A52177C31A904DCE00C24BBD /* Build configuration list for PBXProject "WhosYourValentine?" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A52177BF1A904DCE00C24BBD;
+			productRefGroup = A52177C91A904DCF00C24BBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A52177C71A904DCF00C24BBD /* WhosYourValentine? */,
+				A52177DC1A904DCF00C24BBD /* WhosYourValentine?Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A52177C61A904DCF00C24BBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A52177D31A904DCF00C24BBD /* Main.storyboard in Resources */,
+				A52177D81A904DCF00C24BBD /* LaunchScreen.xib in Resources */,
+				A52177D51A904DCF00C24BBD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A52177DB1A904DCF00C24BBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A52177C41A904DCF00C24BBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A57DDBC91A90DFD3006DB91C /* ContactsHelper.swift in Sources */,
+				A52177D01A904DCF00C24BBD /* ViewController.swift in Sources */,
+				A52177CE1A904DCF00C24BBD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A52177D91A904DCF00C24BBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A52177E41A904DCF00C24BBD /* WhosYourValentine_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A52177DF1A904DCF00C24BBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A52177C71A904DCF00C24BBD /* WhosYourValentine? */;
+			targetProxy = A52177DE1A904DCF00C24BBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A52177D11A904DCF00C24BBD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A52177D21A904DCF00C24BBD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A52177D61A904DCF00C24BBD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A52177D71A904DCF00C24BBD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A52177E51A904DCF00C24BBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A52177E61A904DCF00C24BBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A52177E81A904DCF00C24BBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "WhosYourValentine?/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A52177E91A904DCF00C24BBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "WhosYourValentine?/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A52177EB1A904DCF00C24BBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WhosYourValentine?Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhosYourValentine?.app/WhosYourValentine?";
+			};
+			name = Debug;
+		};
+		A52177EC1A904DCF00C24BBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WhosYourValentine?Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhosYourValentine?.app/WhosYourValentine?";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A52177C31A904DCE00C24BBD /* Build configuration list for PBXProject "WhosYourValentine?" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A52177E51A904DCF00C24BBD /* Debug */,
+				A52177E61A904DCF00C24BBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A52177E71A904DCF00C24BBD /* Build configuration list for PBXNativeTarget "WhosYourValentine?" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A52177E81A904DCF00C24BBD /* Debug */,
+				A52177E91A904DCF00C24BBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A52177EA1A904DCF00C24BBD /* Build configuration list for PBXNativeTarget "WhosYourValentine?Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A52177EB1A904DCF00C24BBD /* Debug */,
+				A52177EC1A904DCF00C24BBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A52177C01A904DCE00C24BBD /* Project object */;
+}
